@@ -1,0 +1,8 @@
+2021-01-04T14:17:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::getID() in /home/cedcoss/Local Sites/cept/app/public/wp-content/plugins/membership-for-woocommerce/public/class-membership-for-woocommerce-public.php:205
+Stack trace:
+#0 /home/cedcoss/Local Sites/cept/app/public/wp-includes/class-wp-hook.php(287): Membership_For_Woocommerce_Public->mwb_membership_for_woo_membership_purchasable(true, Object(WC_Product_Simple))
+#1 /home/cedcoss/Local Sites/cept/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 /home/cedcoss/Local Sites/cept/app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1543): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /home/cedcoss/Local Sites/cept/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(680): WC_Product->is_purchasable()
+#4 /home/cedcoss/Local Sites/cept/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(721): wc_get_product_class(Array, Object in /home/cedcoss/Local Sites/cept/app/public/wp-content/plugins/membership-for-woocommerce/public/class-membership-for-woocommerce-public.php on line 205
+
