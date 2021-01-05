@@ -1,6 +1,5 @@
 <?php 
 $I = new AcceptanceTester($scenario);
-$I->wantTo('check if plugin is active');
-$I->loginAsAdmin();
-$I->amOnPluginsPage();
-$I->seePluginActivated('my-plugin');
+$I->wantTo('checking for title');
+$I->amOnPage('/');
+$I->see('CEPT – Just another WordPress site');

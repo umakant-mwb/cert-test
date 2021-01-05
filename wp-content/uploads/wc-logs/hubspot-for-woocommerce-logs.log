@@ -202,3 +202,21 @@ Process: Updating/Creating Ecomm Bridge - PRODUCT
 URL: /extensions/ecomm/v2/sync/messages
 Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"dd60c356-a5d5-4412-aecc-4c0f7783521e\"}"}
 -----------------------------------
+Website: 127.0.0.1
+Time: January 5, 2021  11:03 am
+Process: Updating/Creating Ecomm Bridge - PRODUCT
+URL: /extensions/ecomm/v2/sync/messages
+Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"d9b50cef-864f-4e73-a79d-207e720bdbdc\"}"}
+-----------------------------------
+Website: 127.0.0.1
+Time: January 5, 2021  11:09 am
+Process: Updating/Creating Ecomm Bridge - PRODUCT
+URL: /extensions/ecomm/v2/sync/messages
+Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"d26a8422-0e04-42fc-9495-1e94ab0591b4\"}"}
+-----------------------------------
+Website: 127.0.0.1
+Time: January 5, 2021  11:15 am
+Process: Updating/Creating Ecomm Bridge - PRODUCT
+URL: /extensions/ecomm/v2/sync/messages
+Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"f5ad5eea-b03e-4d67-b8fa-d164da9600e1\"}"}
+-----------------------------------
