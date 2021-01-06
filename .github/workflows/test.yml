@@ -13,11 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Go to My-plugin directory
-      run: cd wp-content/plugins/my-plugin
     
     - name: Validate composer.json and composer.lock
+      working-directory: ./wp-content/plugins/my-plugin
       run: composer validate
 
     - name: Cache Composer packages
@@ -31,15 +29,12 @@ jobs:
 
     - name: Install dependencies
       if: steps.composer-cache.outputs.cache-hit != 'true'
+      working-directory: ./wp-content/plugins/my-plugin
       run: composer install --prefer-dist --no-progress --no-suggest
 
     - name: Run chrome driver
       run: nohup $CHROMEWEBDRIVER/chromedriver --url-base=/wd/hub /dev/null 2>&1 &
     
     - name: Run codeception test
+      working-directory: ./wp-content/plugins/my-plugin
       run: vendor/bin/codecept run acceptance --steps
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
