@@ -1,6 +1,8 @@
 {
     "name": "local/my-plugin",
     "type": "wordpress-plugin",
+    "description": "TDD with codeception",
+    "license": "MIT",
     "require-dev": {
         "lucatume/wp-browser": "^3.0",
         "codeception/module-asserts": "^1.0",
