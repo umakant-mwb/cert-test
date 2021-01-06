@@ -220,3 +220,15 @@ Process: Updating/Creating Ecomm Bridge - PRODUCT
 URL: /extensions/ecomm/v2/sync/messages
 Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"f5ad5eea-b03e-4d67-b8fa-d164da9600e1\"}"}
 -----------------------------------
+Website: 127.0.0.1
+Time: January 5, 2021  11:22 am
+Process: Updating/Creating Ecomm Bridge - PRODUCT
+URL: /extensions/ecomm/v2/sync/messages
+Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"45c1aefb-13e3-40fd-b80e-6947d2c6c4f9\"}"}
+-----------------------------------
+Website: 127.0.0.1
+Time: January 5, 2021  11:27 am
+Process: Updating/Creating Ecomm Bridge - PRODUCT
+URL: /extensions/ecomm/v2/sync/messages
+Response: {"status_code":401,"response":"Unauthorized","body":"{\"status\":\"error\",\"message\":\"Authentication credentials not found. This API supports both API Key and OAuth 2.0 authentication and you can find more details at https:\/\/developers.hubspot.com\/docs\/methods\/auth\/oauth-overview\",\"correlationId\":\"cae0f90a-2f7e-4ea3-beca-4de799e687a2\"}"}
+-----------------------------------
