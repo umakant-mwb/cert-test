@@ -1,2 +1,6 @@
 vendor/*
 test
+rebase test
+excluding
+testing sqash
+more change
